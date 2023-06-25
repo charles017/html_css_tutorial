@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>The Basic Language of the Web: HTML</title>
   </head>
   <body>
@@ -14,7 +15,7 @@
   <h5>The Basic Language of the Web: HTML</h5>
   <h6>The Basic Language of the Web: HTML</h6>
   -->
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
       <nav>
         <a href="./blog.html">Blog</a>
@@ -33,7 +34,7 @@
           alt="photo of Laura Jones"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
 
         <img
           src="./img/post-img.jpg"
@@ -99,7 +100,7 @@
     </article>
     <aside>
       <h4>Related Post</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="./img/related-1.jpg"
@@ -108,7 +109,7 @@
             alt="a guy typing on his laptop"
           />
           <a href="#">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img
@@ -118,7 +119,7 @@
             alt="lighting bolt"
           />
           <a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img
@@ -128,10 +129,12 @@
             alt="codes on a screen"
           />
           <a href="#">Why JavaScript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
-    <footer>Copyright &copy; 2027 by the Code Magazine</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by the Code Magazine></p>
+    </footer>
   </body>
 </html>
