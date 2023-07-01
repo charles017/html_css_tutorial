@@ -3,6 +3,11 @@ body {
   font-family: sans-serif;
 }
 
+.main-header {
+  background: color #f7f7f7;
+  padding: 20px;
+}
+
 h1, h2, h3, h4, p, li {
   font-family: sans-serif;
   color: #444;
@@ -68,9 +73,7 @@ li {
   list-style: none;
 }
 
-.main-header {
-  background: color #f7f7f7;
-}
+
 
 aside {
   background-color:#f7f7f7;
